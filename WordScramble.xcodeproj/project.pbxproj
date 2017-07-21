@@ -12,6 +12,7 @@
 		052E6C301F21708000F85240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052E6C2E1F21708000F85240 /* Main.storyboard */; };
 		052E6C321F21708000F85240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052E6C311F21708000F85240 /* Assets.xcassets */; };
 		052E6C351F21708000F85240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052E6C331F21708000F85240 /* LaunchScreen.storyboard */; };
+		05765D141F21D5E2007AB5D0 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 05765D131F21D5E2007AB5D0 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		052E6C311F21708000F85240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052E6C341F21708000F85240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052E6C361F21708000F85240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05765D131F21D5E2007AB5D0 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		052E6C1E1F21708000F85240 = {
 			isa = PBXGroup;
 			children = (
+				05765D151F21D5F5007AB5D0 /* Content */,
 				052E6C291F21708000F85240 /* WordScramble */,
 				052E6C281F21708000F85240 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				052E6C361F21708000F85240 /* Info.plist */,
 			);
 			path = WordScramble;
+			sourceTree = "<group>";
+		};
+		05765D151F21D5F5007AB5D0 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				05765D131F21D5E2007AB5D0 /* start.txt */,
+			);
+			name = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				052E6C351F21708000F85240 /* LaunchScreen.storyboard in Resources */,
+				05765D141F21D5E2007AB5D0 /* start.txt in Resources */,
 				052E6C321F21708000F85240 /* Assets.xcassets in Resources */,
 				052E6C301F21708000F85240 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +314,7 @@
 				052E6C3B1F21708000F85240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
